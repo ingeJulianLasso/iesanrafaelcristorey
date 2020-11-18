@@ -1,0 +1,61 @@
+.banner {
+  background-image: url('/assets/images/servicios.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.myCard-img-left {
+  display: flex;
+  flex-direction: row;
+  > div:last-child {
+    width: 50%;
+    margin-left: calc(16px * 2);
+    min-height: 200px;
+  }
+  .imgCard {
+    width: calc(50% + (16px * 2));
+    margin-bottom: -16px;
+    border-radius: 4px 0px 0px 4px;
+    min-height: max-content;
+  }
+}
+
+.myCard-img-rigth {
+  display: flex;
+  flex-direction: row;
+  > div:first-child {
+    width: calc(50% - (16px * 1));
+    margin-right: calc(16px * 2);
+    min-height: 200px;
+  }
+  .imgCard {
+    width: calc(50% + (16px * 1));
+    margin-bottom: -16px;
+    margin-top: -16px;
+    border-radius: 0px 4px 4px 0px;
+    min-height: max-content;
+  }
+}
+
+.biblioteca,
+.fotocopias,
+.apoyo,
+.primaria {
+  background-image: url("/assets/images/biblioteca.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.fotocopias {
+  background-image: url("/assets/images/fotocopias.jpg");
+}
+
+.apoyo {
+  background-image: url("/assets/images/apoyo.jpg");
+}
+
+.primaria {
+  background-image: url("/assets/images/primaria.jpg");
+}

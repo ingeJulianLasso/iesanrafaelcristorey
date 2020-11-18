@@ -1,0 +1,72 @@
+<mat-toolbar
+  [color]="color"
+  class="toolbar-sticky"
+  [class.mat-elevation-z4]="color === 'primary' ? true : false"
+>
+  <span>I.E. San Rafael - Sede Cristo Rey</span>
+  <span class="spacer"></span>
+
+  <!-- inicio -->
+  <a
+    mat-button
+    [routerLink]="['./']"
+  >
+    <mat-icon class="fas fa-home icon-24"></mat-icon>
+    Inicio
+  </a>
+
+  <!-- quienes somos -->
+  <a
+    mat-button
+    [routerLink]="['./', 'quienes-somos']"
+  >
+    <mat-icon class="fas fa-users icon-24"></mat-icon>
+    Quienes somos
+  </a>
+
+  <!-- servicios -->
+  <a
+    mat-button
+    [routerLink]="['./', 'servicios']"
+  >
+    <mat-icon class="fas fa-concierge-bell icon-24"></mat-icon>
+    Servicios
+  </a>
+
+  <!-- secretaría académica -->
+  <a
+    mat-button
+    [routerLink]="['./', 'secretaria-academica']"
+  >
+    <mat-icon class="fas fa-university icon-24"></mat-icon>
+    Secretaría académica
+  </a>
+
+  <!-- restaurante escolar -->
+  <a
+    mat-button
+    [routerLink]="['./', 'restaurante-escolar']"
+  >
+    <mat-icon class="fas fa-utensils icon-24"></mat-icon>
+    Restaurante escolar
+  </a>
+
+  <!-- transporte estudiantil -->
+  <a
+    mat-button
+    [routerLink]="['./', 'transporte-estudiantil']"
+  >
+    <mat-icon class="fas fa-bus-alt icon-24"></mat-icon>
+    Transporte estudiantil
+  </a>
+
+  <!-- Enlaces de interes -->
+  <a
+    mat-button
+    [routerLink]="['./', 'enlaces-de-interes']"
+  >
+    <mat-icon class="fas fa-link icon-24"></mat-icon>
+    Enlaces de interés
+  </a>
+
+</mat-toolbar>

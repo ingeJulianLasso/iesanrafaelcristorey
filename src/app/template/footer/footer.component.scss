@@ -1,0 +1,27 @@
+.mapa {
+  display: flex;
+  flex-direction: row;
+  div {
+    flex-grow: 1;
+    margin-right: 8px;
+    h4 {
+      margin-bottom: 0px;
+      padding-left: 16px;
+    }
+    hr {
+      border: 0;
+      border-top: 3px solid rgba(255,255,255,0.8);
+      width: 50%;
+      display: inline-block;
+      margin-left: 16px;
+    }
+    ul {
+      list-style-type: none;
+      padding-inline-start: 0px;
+      margin-top: 0px;
+    }
+  }
+  div:last-child {
+    margin-right: 0px;
+  }
+}

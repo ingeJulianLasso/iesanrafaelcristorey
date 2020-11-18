@@ -1,0 +1,17 @@
+.toolbar-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.mat-toolbar {
+  transition: all 0.2s ease-in-out;
+}
+
+.mat-toolbar.mat-primary {
+  transition: all 0.2s ease-in-out;
+}
+
+.icon-24 {
+  font-size: 19px;
+}

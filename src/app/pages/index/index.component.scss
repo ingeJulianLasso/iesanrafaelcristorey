@@ -1,0 +1,25 @@
+@import "~@angular/material/theming";
+$candy-app-accent: mat-palette($mat-yellow, A200, A100, A400);
+$accent: mat-color($candy-app-accent, 600);
+
+.banner {
+  background-image: url('/assets/images/uno.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.principal {
+  display: flex;
+  flex-direction: row;
+  > div:first-child {
+    margin-right: 8px;
+  }
+  > div:last-child {
+    margin-left: 8px;
+  }
+  > div {
+    width: calc(50% - 8px);
+  }
+}
+
